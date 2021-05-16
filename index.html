@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>PENDU</h1>
+        <div id="start">
+            <input type="text" id="word" placeholder="Mot à découvir">
+            <button id="go">GO</button>
+        </div>
+        <div id="restart">
+            <button id="reload">RECOMMENCER</button>
+        </div>
+        <div id="play">
+            <div id="chance">
+                Chances restantes : <span id="life">10</span>
+            </div>
+            <input type="text" id="letter" maxlength="1" placeholder="LETTRE">
+            <button id="ok">OK</button>
+        </div>
+        <div id="game">
+            <p id="underscord"></p>
+        </div>
+        <div id="pendu">
+            <div id="you">
+                <div  class="youc">Y</div>
+                <div  class="youc">O</div>
+                <div  class="youc">U</div>
+            </div>
+            <div id="divpendu">
+                <img id="imgpendu" src="assets/Pendu_10.png" alt="">
+            </div>
+            <div id="win">
+                <id class="winc">W</id>
+                <id  class="winc">I</id>
+                <id  class="winc">N</id>
+            </div>
+            <div id="lose">
+                <div class="losec">L</div>
+                <div class="losec">O</div>
+                <div class="losec">S</div>
+                <div class="losec">E</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
